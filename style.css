@@ -1,0 +1,456 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+}
+
+.btn-1:hover{
+    background-color: #623E2A;
+    transition: 1s ease;
+}
+
+.btn-1:hover a {
+    color: white;
+    transition: 1s ease;
+}
+.btn-2 {
+    padding: 10px 20px;
+    background-color: #623E2A;
+}
+
+.btn-2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-2:hover {
+    
+    transition: 1s ease-in-out;
+    transform: scaleX(1.05);
+}
+
+.btn-1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.fraunces {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 50,
+    "WONK" 0;
+}
+
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.jost-i {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.bck-1 {
+    background: url('img/421150561.jpg') rgba(0, 0, 0, 0.50);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;  
+    display: flex;
+    align-items: center;
+   
+}
+
+.bck-2 {
+    background: url('img/421171104.jpg') rgba(0, 0, 0, 0.50);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.bck-3 {
+    background: url('img/421169397.jpg') rgba(0, 0, 0, 0.50);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.g-1 {
+    background:url('img/421150561.jpg')rgba(0, 0, 0, 0.40) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 70vh;
+}
+
+.g-2 {
+    background:url('img/421162383.jpg') rgba(0, 0, 0, 0.40) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 70vh;
+}
+
+.g-3 {
+    background:url('img/421171104.jpg') rgba(0, 0, 0, 0.40) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 70vh;
+}
+
+.g-4 {
+    background: url('img/451555681.jpg') rgba(0, 0, 0, 0.40);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 70vh;
+}
+.g-5 {
+    background:url('img/421150577.jpg') rgba(0, 0, 0, 0.40) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 70vh;
+}
+
+.rooms-dsc p {
+    color: grey;
+    font-size: 20px;
+}
+
+.rooms-dsc i {
+    color: wheat;
+    font-size: 25px;
+}
+
+.rooms-dsc h1 {
+    color: black    ;
+    font-size: 30px;
+}
+
+/* facilities */
+.faci-img {
+    background-color: white;
+    padding: 30px;
+    line-height: 100px;
+    margin: 15px 0;
+}
+
+.faci-img:hover {
+
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 5px 2px rgba(255,255,255,1);
+box-shadow: 0px 0px 5px 2px rgba(255,255,255,1);
+transition: 1s ease;
+cursor: pointer;
+}
+
+.faci-img img {
+    height: 70px;
+}
+
+.faci-img h4 {
+    color: rgb(83, 83, 255);
+    font-size: 20px;
+}
+
+
+.testi {
+    padding: 30px;
+}
+
+
+.testi .item i {
+    color: #623E2A;
+    font-size: 80px;
+}
+
+.testi .item h1 {
+    color: black;
+}
+
+.testi .item h2 {
+    color: grey;
+}
+
+.testi .item p {
+    color: black;
+}
+
+/* footer */
+
+
+.con-inf i {
+    font-size: 25px;
+    color: #A37E4F;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.con-inf p {
+    font-size: 20px;
+    color: white;
+}
+
+.con-inf a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.men-foo {
+    margin-top: 30px;
+    line-height: 35px;
+}
+.men-foo ul li {
+    list-style: none;
+}
+
+.men-foo a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.men-foo a:hover {
+    color: grey;
+    transition: 1s ease;
+}
+
+/* rooms.html */
+#rooms-about {
+    background: url('img/421162383.jpg') rgba(0, 0, 0, 0.70);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+/* gallery.html */
+#gallery-about {
+    background: url('img/451555681.jpg') rgba(0, 0, 0, 0.70);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+/* contact.html */
+
+#contact-about {
+    background: url('img/studio-3.jpg') rgba(0, 0, 0, 0.70);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.cnt-inf h4 {
+    font-size: 22px;
+} 
+
+.cnt-inf p {
+    font-size: 18px;
+}
+
+.cnt-inf a {
+    text-decoration: none;
+    color: white;
+}
+
+/* annimation */
+
+.fadeinleft {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 1s ease-out;
+  }
+  
+  .fadeinright {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1s ease-out;
+  }
+  
+  .fadeindown {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 1.2s ease-out;
+  }
+  
+  .fadeinup {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1.2s ease-out;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transition: all 1.3s ease-in;
+  }
+  
+  .active-left,
+  .active,
+  .active-right,
+  .active-down,
+  .active-up {
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+  
+  .fadein {
+    opacity: 0;
+  }
+
+  /* responsive */
+  @media (max-width:991px) {
+    .about-description h2 {
+        font-size: 20px;
+    }
+
+    .about-description h1 {
+        font-size: 35px !important;
+    }
+
+    .about-description p {
+        font-size: 15px !important;
+    }
+
+    .gallery-ds h2 {
+        font-size: 25px;
+    }
+
+    /* rooms */
+    .rooms-dsc h1 {
+        font-size: 23px;
+    }
+
+    .fac p {
+        font-size: 17px;
+    }
+    /* facilities  */
+    .facilities-ds h2 {
+        font-size: 25px;
+    }
+
+    /* testimonials */
+    .testimonials-ds h2 {
+        font-size: 25px;
+    }
+
+    .testimonials-ds h1 {
+        font-size: 30px;
+    }
+    .about-img  {
+        margin: 20px!important;
+    }
+  }
+
+  @media (max-width:800px) {
+    .about-description h2 {
+        font-size: 18px;
+    }
+
+    .about-description h1 {
+        font-size: 30px !important;
+    }
+
+    .about-description p {
+        font-size: 13px !important;
+    }
+
+    .gallery-ds h2 {
+        font-size: 22px;
+    }
+
+    /* rooms */
+    .rooms-dsc h1 {
+        font-size: 20px;
+    }
+
+    .fac p {
+        font-size: 15px;
+    }
+    /* facilities  */
+    .facilities-ds h2 {
+        font-size: 22px;
+    }
+
+    /* testimonials */
+    .testimonials-ds h2 {
+        font-size: 22px;
+    }
+
+    .testimonials-ds h1 {
+        font-size: 27px;
+    }
+
+    .contact-info h3 {
+        font-size: 27px!important;
+    }
+
+    .con-inf p {
+        font-size: 16px !important;
+    }
+
+    .con-inf a {
+        font-size: 17px !important;
+    }
+
+    .menu-footer h3{ 
+        font-size: 27px !important;
+    }
+
+    .menu-footer ul li a {
+        font-size: 17px !important;
+    }
+
+    .location h3 {
+        font-size: 27px !important;
+    }
+
+    .about-img  {
+        margin: 20px!important;
+    }
+  }
